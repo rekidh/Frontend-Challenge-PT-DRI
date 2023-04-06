@@ -1,0 +1,71 @@
+.banner{
+   background-color: transparent;
+   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+   position: relative;
+   border-radius: 1em;
+   color: #EBFFFE;
+   padding: 1em 2em;
+   overflow: hidden;
+   height: 10em;
+   margin:0 1em 1em 1em;
+}
+.banner>p{
+   width: 30em;
+}
+.action_container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 1em;
+   padding-top: 0.5em;
+   z-index: 5;
+}
+
+.bg>img {
+   position: absolute;
+   width: 35em;
+   height: 15em;
+   top: -1em;
+   z-index: -5;
+   left: 60%;
+   object-fit: cover;
+}
+.rectangle{
+   width: 59%;
+   height: 100%;
+   background:#5D5FEF;
+   z-index: -4;
+}
+.shapes {
+   z-index: -4;
+   border-top: 210px solid #5D5FEF;
+   border-right: 130px solid transparent;
+}
+.bg{
+   display: flex;
+   height: 12em;
+   width: 100%;
+   position: absolute;
+   z-index: -2;
+   top: 0;
+   left: 0;
+}
+.btn_glass:hover{
+   cursor: pointer;
+}
+.btn_glass{
+   padding: 1em;
+   color: #fff;
+   background: rgba(255, 255, 255, 0.26);
+   border-radius: 0.5em;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+   border: 1px solid rgba(255, 255, 255, 0.01);
+   display: flex;
+   text-align: center;
+}
+.btn_glass>:first-child{
+   text-align: center;
+   padding : 0 0.5em;
+}

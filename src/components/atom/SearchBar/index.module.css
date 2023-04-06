@@ -1,0 +1,33 @@
+.container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #FFFFFF;
+   color:#D1D0D3;
+   width: 24em;
+   height: 2.5em;
+   border-radius: 0.3em;
+}
+.container>input{
+   height: 2em;
+   width: 70%;
+   border: none;
+}
+.container>input:focus{
+  outline: none;
+}
+.container>label{
+  padding: 0.5em;
+}
+
+.btn_submit:hover{
+   cursor: pointer;
+}
+.btn_submit{
+   padding: 0.5em 1em;
+   border-radius: 0.5em;
+   margin-right: 0.2em;
+   background-color: #5D5FEF;
+   color: #fff;
+   border: 1px solid rgba(255, 255, 255, 0.01);
+}

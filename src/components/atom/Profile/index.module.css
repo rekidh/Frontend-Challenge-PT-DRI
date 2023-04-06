@@ -1,0 +1,23 @@
+.container{
+ display: flex;  
+ align-items: center;
+margin-bottom: 1em;
+}
+.container>img{
+ width: 3em;
+ height: 3em;
+ border-radius: 50%; 
+}
+.profileInfo{
+   margin-left: 0.5em;
+   display: flex;
+   flex-direction: column;
+   gap: -2em;
+}
+
+.profileInfo>p{
+   color: #98949E;
+}
+.profileInfo>*{
+   margin: 0;
+}

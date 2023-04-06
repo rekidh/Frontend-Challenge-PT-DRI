@@ -1,0 +1,16 @@
+.sidebar{
+   width: 18%;
+   height: 100%;
+}
+.main{
+   margin-left: 1em;
+   width: 100%;
+   height: 100%;
+}
+.container_main{
+   display: flex;
+}
+.body{
+   display: flex;
+   flex-direction: column;
+}

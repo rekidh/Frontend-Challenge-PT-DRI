@@ -1,0 +1,39 @@
+.ellipse{
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      top: 25%;
+      left: 26%;
+      background:#5d5fef;
+      border-radius: 50%;
+}
+.rectangle{
+      position: absolute;
+      width: 25%;
+      height: 50%;
+      top: 4%;
+      left: 26%;
+      background: #5d5fef;
+      border-radius: 0px 27.9812px 0px 0px;
+}
+.container_icon{
+   position: relative;
+   /* max-width: 20em; */
+   min-width: 5em;
+   /* max-height: 20em; */
+   min-height: 5em;
+   background-color: transparent;
+}
+.container{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+.child{
+      color:#5d5fef;
+      font-size: 1.5em;
+      font-weight: 700;
+      margin-left: -0.7em;
+}
