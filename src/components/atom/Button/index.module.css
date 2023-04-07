@@ -3,11 +3,26 @@
    background-color: #FEF5F6;
    display: flex;
    gap: 0.5em;
-   border-radius: 10%;
+   border-radius: 0.5em;
    padding: 1em;
    justify-content: center;
    align-items: center;
 }
 .btn:hover{
    cursor: pointer;
+}
+.glass{
+   padding: 1em;
+   display: flex;
+   text-align: center;
+   gap: 0.5em;
+   border-radius: 0.5em;
+
+   color: #fff;
+   background: rgba(255, 255, 255, 0.26);
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+   border: 1px solid rgba(255, 255, 255, 0.01);
+
 }

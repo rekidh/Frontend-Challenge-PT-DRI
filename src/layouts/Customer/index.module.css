@@ -10,7 +10,65 @@
 }
 .addsOn{
   width: 20%;
-  margin: 0.5em;
+  margin:0 0.5em;
   height: 100%;
-  background-color: yellow;
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+}
+.topAdds{
+  overflow: hidden;
+  position: relative;
+  height: 20em;
+  background:#5D5FEF;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.topAdds>button{
+  margin: 1em;
+}
+.topAdds>:first-child{
+  margin: 1em;
+  color: #feffef;
+  width: 8em;
+  font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.botAdds{
+  background: #FAFAFA;;
+  border-radius: 0.5em;
+}
+.botAdds>h2{
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  font-style: normal;
+  font-weight: 500;
+}
+.botAdds>h2>span{
+  font-weight: 700;
+  color: #F17300;
+}
+.botAdds>p{
+  margin: 1em;
+  color: #98949E;
+}
+.botAdds>ol>li{
+  color: #98949E;
+  margin:1em 0;
+}
+.botAdds>ol>li:first-child{
+  list-style: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 11em;
+  font-weight: 600;
+  color: black;
+  padding: 0.5em;
+  margin-left: -1em;
 }

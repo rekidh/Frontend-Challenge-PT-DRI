@@ -72,7 +72,7 @@ export default function Main() {
           <div>
             <Outlet/>
           </div>
-          <div>Sidebar Right</div>
+
         </div>
       </div>
     </div>

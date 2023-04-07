@@ -17,6 +17,8 @@ import deleteIcon from '../assets/icons/trash.png'
 import shieldIcon from '../assets/icons/shield-search.png'
 import editIcon from '../assets/icons/edit-2.png'
 import logoutIcon from '../assets/icons/logout.png'
+import shapes from '../assets/icons/sappes.png'
+import cart from '../assets/icons/cart.png'
 const assets ={
    dashboard: <img src={dashboardIcon} alt="" /> ,
    stock: <img src={stockIcon} alt="" /> ,
@@ -37,5 +39,7 @@ const assets ={
    shieldIcon: <img src={shieldIcon} alt="" /> ,
    editIcon: <img src={editIcon} alt="" /> ,
    logoutIcon: <img src={logoutIcon} alt="" /> ,
+   shapes: <img src={shapes} alt="" /> ,
+   cart: <img src={cart} alt="" /> ,
 }
 export default assets

@@ -2,6 +2,8 @@ import Navbar from '../../components/molecules/Navbar'
 import Banner from '../../components/molecules/Banner'
 import Table  from '../../components/molecules/Table'
 import style from './index.module.css'
+import Button from '../../components/atom/Button'
+import assets from '../../helpers/assetsLink'
 
 export default function index() {
   const data =[
@@ -45,7 +47,26 @@ export default function index() {
           <Table dataTable={data}/>
         </div>
         <div className={style.addsOn}>
-          j
+          <div className={style.topAdds}>
+            <p>See analytics of the Customer Clearly</p>
+            <Button size={{x:9,y:3.5}} type='btn-glass' >See Analytics</Button>
+
+
+          </div>
+          <div className={style.botAdds}>
+            <h2>Top Menu <span>This Week</span></h2>
+            <p>10-12 Agustus 2023</p>
+            <ol>
+              <li>
+                Nasi Goreng Jamur Special Resto Pak Min
+              </li>
+              <li>Tongseng Sapi Gurih</li>
+              <li>Nasi Gudeg Telur Ceker</li>
+              <li>Nasi Ayam serundeng</li>
+              <li>Nasi Goreng Seafood</li>
+            </ol>
+            {assets.cart}
+          </div>
         </div>
       </div>
     </div>

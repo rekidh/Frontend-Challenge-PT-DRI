@@ -1,6 +1,8 @@
 .sidebar{
    width: 18%;
    height: 100%;
+   position: sticky;
+   top: 0;
 }
 .main{
    margin-left: 1em;
