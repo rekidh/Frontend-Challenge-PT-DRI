@@ -69,9 +69,7 @@ export default function index(datas:Table) {
         })}
 
         </tbody>
-        <tfoot>
-             {/* mollitia soluta. Cupiditate ratione atque consequatur corporis? Harum quia, amet officiis fuga magnam cum autem numquam unde obcaecati odio? */}
-        </tfoot>
+        
       </table>
     </div>
   )

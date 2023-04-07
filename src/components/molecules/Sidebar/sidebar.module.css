@@ -1,11 +1,12 @@
 .side_container{
    border-right: #D1D0D366 1px solid;
-   padding-top: 1.5em;
-   padding-left: 1em;
-
+   padding-top: 1em;
+   padding-left: 0.5em;
+   margin: 0 1em;
 }
 .side_container>:nth-child(2),.side_container>:nth-child(3){
    color: #98949E;
+   font-weight: 600;
 }
 
 .side_container>div>ul>li>*{
