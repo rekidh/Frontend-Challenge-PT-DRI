@@ -7,7 +7,7 @@ import type {Table} from './index.d'
 export default function Index(datas:Table) {
   
   const [currentPage, setCurrentPage] = useState(1)
-  const postsPerPage= 10 //esLint counter 
+  const postsPerPage= 10 //esLint counter
   // const [postsPerPage, setPostsPerPage] = useState(10)
 
   //get the current page
@@ -94,7 +94,7 @@ export default function Index(datas:Table) {
                 <a href={`#${number}`}>{number}</a> 
               </li>
               )}
-              <Button onClick={(e)=>setCurrentPage(currentPage+1)} collor='#FAFAFA' size={{x:4,y:1}} >Next {assets.next}</Button>
+              <Button onClick={(e)=>currentPage>=arrayOfPages.length?'':setCurrentPage(currentPage+1)} collor='#FAFAFA' size={{x:4,y:1}} >Next {assets.next}</Button>
             </ul>
           </div>
         </div>

@@ -1,7 +1,11 @@
 import style from './index.module.css'
 import { useState } from 'react'
-
-export default function Index() {
+import type { Table } from '../../molecules/Table/index.d'
+interface ArrowSort  {
+  sort?:Function,
+  data?:Table
+}
+export default function Index(prop:ArrowSort) {
   // const sortNumber =data.sort((a,b)=>a.totalTransactions-b.totalTransactions)
   // const sortCharacterDesc =data.sort((a,b)=>{ 
   //   if(a.name<b.name) return 1;
