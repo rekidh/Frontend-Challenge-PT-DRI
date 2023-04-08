@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './index.module.css'
 import assets from '../../../helpers/assetsLink'
-export default function index() {
+export default function Index() {
   return (
     <div className={style.container}>
 

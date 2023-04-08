@@ -31,16 +31,22 @@
    object-fit: cover;
 }
 .rectangle{
-   width: 59%;
+   width: 57%;
    height: 100%;
-   background:#5D5FEF;
-   z-index: -4;
-}
-.shapes {
+   /* background:#5D5FEF; */
    z-index: -4;
    border-top: 210px solid #5D5FEF;
    border-right: 130px solid transparent;
 }
+.shapes {
+   z-index: -4;
+}
+/* .shapes::before {
+   content: ' ';
+   width: 2em;
+   height: 2em;
+   background: #000;
+} */
 .bg{
    display: flex;
    height: 12em;

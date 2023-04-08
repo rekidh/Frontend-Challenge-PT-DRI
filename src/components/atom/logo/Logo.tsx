@@ -4,7 +4,7 @@ import style from './logo.module.css'
 interface Logo{
    children:React.ReactNode
 }
-export const Logo = (prop:Logo) => {
+ const Logos = (prop:Logo) => {
   return (
     <div className={style.container}>
       <div className={style.container_icon}>
@@ -15,3 +15,5 @@ export const Logo = (prop:Logo) => {
     </div>
   )
 }
+
+export default Logos

@@ -1,18 +1,19 @@
 import style from './index.module.css'
-interface Button{
+import React,{ButtonHTMLAttributes} from 'react'
+interface MyButton {
   children?:React.ReactNode,
   collor?:string,
-  type?:string,
+  class?:string,
   size?:{
     x:number,
     y:number
   },
 }
-export default function index(prop:Button) {
+export default function index(prop:MyButton & React.DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>) {
 
-  switch (prop.type){
+  switch (prop.class){
     case 'btn-glass': return(
-      <button style={{width:prop.size?`${prop.size.x}em`:'',height:prop.size?`${prop.size.y}em`:''}}  className={style.glass}>{prop.children}</button>
+      <button  {...prop} style={{width:prop.size?`${prop.size.x}em`:'',height:prop.size?`${prop.size.y}em`:''}}  className={style.glass}>{prop.children}</button>
     )
   }
   return (

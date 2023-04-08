@@ -64,11 +64,30 @@
   margin:1em 0;
 }
 .botAdds>ol>li:first-child{
+  position: relative;
   list-style: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5em;
   width: 11em;
   font-weight: 600;
   color: black;
   padding: 0.5em;
   margin-left: -1em;
+}
+.botAdds>ol>li:first-child::after {
+  content: '1';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+  position: absolute;
+  top: -0.5em;
+  right: 0;
+  transform: rotate(10deg);
+  border-bottom: 2px solid #464646;
+  border-right: 2px solid #464646;
+  width: 1.5em;
+  height: 1.5em;
+  background:#F17300;
+
 }

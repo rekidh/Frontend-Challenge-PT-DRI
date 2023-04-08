@@ -37,7 +37,104 @@ export default function index() {
       favorites:'chiken',
       totalTransactions:24000
     },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mali",
+      level:4,
+      favorites:'drink',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"caca",
+      level:3,
+      favorites:'coca',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"jainal",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"anto",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"basir",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"mamat",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
+    {
+      name:"akmal",
+      level:3,
+      favorites:'chiken',
+      totalTransactions:24000
+    },
   ]
+
   return (
     <div className={style.container}>
       <Navbar/>
@@ -49,9 +146,7 @@ export default function index() {
         <div className={style.addsOn}>
           <div className={style.topAdds}>
             <p>See analytics of the Customer Clearly</p>
-            <Button size={{x:9,y:3.5}} type='btn-glass' >See Analytics</Button>
-
-
+            <Button size={{x:9,y:3.5}} class='btn-glass' >See Analytics</Button>
           </div>
           <div className={style.botAdds}>
             <h2>Top Menu <span>This Week</span></h2>

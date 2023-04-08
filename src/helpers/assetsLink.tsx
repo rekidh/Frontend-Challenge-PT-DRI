@@ -19,6 +19,7 @@ import editIcon from '../assets/icons/edit-2.png'
 import logoutIcon from '../assets/icons/logout.png'
 import shapes from '../assets/icons/sappes.png'
 import cart from '../assets/icons/cart.png'
+import next from '../assets/icons/Arrow 1.png'
 const assets ={
    dashboard: <img src={dashboardIcon} alt="" /> ,
    stock: <img src={stockIcon} alt="" /> ,
@@ -41,5 +42,6 @@ const assets ={
    logoutIcon: <img src={logoutIcon} alt="" /> ,
    shapes: <img src={shapes} alt="" /> ,
    cart: <img src={cart} alt="" /> ,
+   next: <img src={next} alt="" /> ,
 }
 export default assets

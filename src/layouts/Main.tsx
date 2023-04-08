@@ -1,10 +1,14 @@
 import {Outlet} from 'react-router-dom'
 import Sidebar from '../components/molecules/Sidebar'
-import {GrAppsRounded} from "react-icons/gr"
 import style from './main.module.css'
-
+import { useLocation ,Navigate} from 'react-router-dom'
 import assets from '../helpers/assetsLink'
 export default function Main() {
+  const loc = useLocation()
+   if (loc.pathname==='/') {
+     Navigate({to:'/customer'})
+  }
+
   const listMenu =[
     {
       icont:assets.dashboard,
@@ -19,7 +23,7 @@ export default function Main() {
     {
       icont:assets.customer,
       name:'Customer',
-      path:'costumer',
+      path:'customer',
     },
     {
       icont:assets.restaurant,

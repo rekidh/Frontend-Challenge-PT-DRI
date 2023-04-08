@@ -30,10 +30,12 @@ padding: 0.5em 0.5em 0;
 }
 .container>table>thead{
    background-color: #FAFAFA;
-   padding-bottom: 1em;
+   margin: 0;
 }
 .container>table>thead>*{
   border: none;
+  padding: 0;
+  margin: 0;
 }
 .warga{
 
@@ -85,4 +87,43 @@ padding: 0.5em 0.5em 0;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       -webkit-text-fill-color: transparent;
+}
+.pagination{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #FAFAFA;
+   overflow: hidden;
+   margin: 1em;
+   padding: 0 1em;
+   border-radius: 0.5em;
+}
+.pagination_info>p{
+   margin-bottom: 0;
+}
+
+.pagination_number>ul{
+   display: flex;
+   gap: 0.5em;
+}
+.pagination_number>ul>li{
+   list-style: none;   
+   width: 2em;
+   text-align: center;
+   margin-bottom: 0;
+   padding: 0.2em;
+}
+.pagination_number>ul>li:hover{
+   cursor:pointer
+}
+.pagination_number>ul>li>a{
+   margin-bottom: 0;
+   text-decoration: none;
+   color: #6D6D6D;;
+}
+.current{
+   background: #FFFFFF;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+   border-radius: 0.2em;
 }

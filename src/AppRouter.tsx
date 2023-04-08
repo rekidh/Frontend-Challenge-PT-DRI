@@ -20,7 +20,7 @@ export default function AppRouter() {
                element: <Dashboard/>
             },
             {
-               path:'costumer',
+               path:'customer',
                element: <Costumer/>
             },
             {
